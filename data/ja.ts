@@ -114,7 +114,7 @@ const data: Data = {
         'An environmental impact tracking app for individuals and small businesses',
       link: {
         label: 'ecotrack.app',
-        href: 'https://ecotrack.app/',
+        href: 'https://www.jmdp.or.jp',
       },
     },
     {
@@ -124,7 +124,7 @@ const data: Data = {
         'A real-time collaborative coding platform for remote pair programming',
       link: {
         label: 'codecollab.io',
-        href: 'https://codecollab.io/',
+        href: 'https://www.jmdp.or.jp',
       },
     },
   ],

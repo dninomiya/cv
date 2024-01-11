@@ -33,7 +33,7 @@ const data: Data = {
   work: [
     {
       company: 'BlueTech Co., Ltd.',
-      link: 'https://www.jmdp.or.jp',
+      link: 'https://wmda.info',
       badges: ['Remote'],
       title: 'Lead Software Engineer',
       start: '2020',
@@ -43,7 +43,7 @@ const data: Data = {
     },
     {
       company: 'Green Data Co., Ltd.',
-      link: 'https://www.jmdp.or.jp',
+      link: 'https://wmda.info',
       badges: ['Remote'],
       title: 'Data Scientist',
       start: '2018',
@@ -52,7 +52,7 @@ const data: Data = {
     },
     {
       company: 'Cybersecurity Solutions',
-      link: 'https://www.jmdp.or.jp',
+      link: 'https://wmda.info',
       badges: [],
       title: 'Senior Security Engineer',
       start: '2017',
@@ -70,7 +70,7 @@ const data: Data = {
     },
     {
       label: 'Send DM',
-      href: 'https://twitter.com/JMDP1789',
+      href: 'https://twitter.com/WMDA_office',
       icon: SiX,
       toolbar: true,
     },
@@ -100,7 +100,7 @@ const data: Data = {
         'An environmental impact tracking app for individuals and small businesses',
       link: {
         label: 'ecotrack.app',
-        href: 'https://ecotrack.app/',
+        href: 'https://wmda.info',
       },
     },
     {
@@ -110,19 +110,19 @@ const data: Data = {
         'A real-time collaborative coding platform for remote pair programming',
       link: {
         label: 'codecollab.io',
-        href: 'https://codecollab.io/',
+        href: 'https://wmda.info',
       },
     },
   ],
   links: [
     {
       label: 'XXX',
-      href: 'https://twitter.com/JMDP1789',
+      href: 'https://twitter.com/WMDA_office',
       icon: SiGithub,
     },
     {
       label: 'XXX',
-      href: 'https://twitter.com/JMDP1789',
+      href: 'https://twitter.com/WMDA_office',
       icon: SiX,
     },
   ],
