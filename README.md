@@ -51,6 +51,10 @@ PORT=3001 bun ogimage
 
 The OG Image template can be edited in [og-image/page.tsx](app/[locale]/og-image/page.tsx).
 
+## Deploy
+
+GitHub Actions automatically publishes the contents of the main branch. Please enable GitHub Pages in the repository settings beforehand.
+
 ## Custom Domain
 
 If you are using a custom domain with GitHub Pages, please remove the following line from [gh-pages.yml](.github/workflows/gh-pages.yml).
