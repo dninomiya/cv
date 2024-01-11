@@ -49,6 +49,8 @@ bun ogimage
 PORT=3001 bun ogimage
 ```
 
+The OG Image template can be edited in [og-image/page.tsx](app/[locale]/og-image/page.tsx).
+
 ## Custom Domain
 
 If you are using a custom domain with GitHub Pages, please remove the following line from [gh-pages.yml](.github/workflows/gh-pages.yml).
