@@ -5,7 +5,7 @@ export type Project = {
   title: string;
   techStack: string[];
   description: string;
-  link: {
+  link?: {
     label: string;
     href: string;
   };
@@ -20,7 +20,7 @@ export type Education = {
 
 export type Work = {
   company: string;
-  link: string;
+  link?: string;
   badges: string[];
   title: string;
   start: string;

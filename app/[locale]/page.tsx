@@ -69,13 +69,17 @@ export default async function Home({
                 </div>
                 <div className="flex items-center justify-between gap-x-2">
                   <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                    <a
-                      className="hover:underline"
-                      target="_blank"
-                      href={work.link}
-                    >
-                      {work.company}
-                    </a>
+                    {work.link ? (
+                      <a
+                        className="hover:underline"
+                        target="_blank"
+                        href={work.link}
+                      >
+                        {work.company}
+                      </a>
+                    ) : (
+                      work.company
+                    )}
 
                     <span className="hidden sm:inline-flex gap-x-1">
                       {work.badges.map((badge) => (
