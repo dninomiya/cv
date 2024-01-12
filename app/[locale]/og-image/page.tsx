@@ -1,10 +1,8 @@
 import { getData } from '@/data';
 import { getStaticParams } from '@/locales/server';
-import { Globe } from 'lucide-react';
 import { setStaticParamsLocale } from 'next-international/server';
 import Image from 'next/image';
 import { redirect } from 'next/navigation';
-import React from 'react';
 
 export default function Page({
   params: { locale },
@@ -23,25 +21,25 @@ export default function Page({
     <div className="flex items-center justify-center h-dvh">
       <div
         id="canvas"
-        className="flex items-center aspect-video h-[320px] px-16 gap-6"
+        className="flex items-center aspect-video h-[640px] px-32 gap-12"
       >
         <div>
           <Image
             src={data.avatarUrl}
             alt=""
-            width={112}
-            height={112}
+            width={240}
+            height={240}
             className="rounded-xl"
           />
         </div>
         <div className="*:leading-none">
           {data.globalName && (
-            <p className="text-xs mb-2 text-muted-foreground">
+            <p className="text-2xl mb-4 text-muted-foreground">
               {data.globalName}
             </p>
           )}
-          <h1 className="text-2xl mb-3 font-bold">{data.name}</h1>
-          <p className="text-muted-foreground">{data.bio}</p>
+          <h1 className="text-5xl mb-4 font-bold">{data.name}</h1>
+          <p className="text-3xl text-muted-foreground">{data.bio}</p>
         </div>
       </div>
     </div>
