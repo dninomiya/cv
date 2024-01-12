@@ -22,7 +22,7 @@ export default async function Home({
   const data = getData();
 
   return (
-    <main className="container max-w-2xl py-10 sm:py-16 mb-6 print:mb-0 print:py-6 space-y-8">
+    <main className="container max-w-2xl pt-10 pb-16 sm:py-16 mb-6 print:mb-0 print:py-6 space-y-8">
       <section>
         <p className="text-right italic text-sm mb-4 text-muted-foreground">
           <time>{format(new Date(data.lastUpdatedAt), 'yyyy-MM-dd')}</time>
