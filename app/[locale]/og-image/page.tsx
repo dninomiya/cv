@@ -41,11 +41,7 @@ export default function Page({
             </p>
           )}
           <h1 className="text-2xl mb-3 font-bold">{data.name}</h1>
-          <p className="text-muted-foreground mb-3">{data.bio}</p>
-          <p className="flex items-center gap-1 text-sm text-muted-foreground">
-            <Globe size={14} />
-            {data.location}
-          </p>
+          <p className="text-muted-foreground">{data.bio}</p>
         </div>
       </div>
     </div>
