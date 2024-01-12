@@ -14,6 +14,13 @@ test('ogimage', async ({ page }) => {
 
   for (const lang of locales) {
     await page.goto(`http://localhost:${port}/${lang}/og-image`);
+    await page.locator('img').evaluate(async (img: HTMLImageElement) => {
+      if (img.complete) return;
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+      });
+    });
     await page
       .locator('#canvas')
       .screenshot({ path: `./public/locale/${lang}/og-image.png` });
