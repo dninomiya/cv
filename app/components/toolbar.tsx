@@ -9,7 +9,7 @@ import { Data } from '@/types/data';
 
 export default function ToolBar({ data }: { data: Data }) {
   const noFeatures = Object.values(AppConfig.toolbar).every((value) =>
-    Boolean(value)
+    !Boolean(value)
   );
 
   return (
